@@ -1,7 +1,8 @@
 sources:
   pollen:
       description:|
-	 Sample images required to demonstrate a pretrained image classification model to classify pollen grains by species, taken from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157044, published under CC0: public domain license.
+        Sample images required to demonstrate a pretrained image 
+classification model to classify pollen grains by species, taken from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157044, published under CC0: public domain license.
       
       origin:
       driver: intake_xarray.image.ImageSource
