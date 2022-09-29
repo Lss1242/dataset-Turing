@@ -5,5 +5,6 @@ sources:
       
       origin:
       driver: intake_xarray.image.ImageSource
-      args: urlpath:["zip://*.jpg::https://zenodo.org/record/7113865/files/PollenData.zip"]
+      args:
+        urlpath: ["zip://*.jpg::https://zenodo.org/record/7113865/files/PollenData.zip"]
 
