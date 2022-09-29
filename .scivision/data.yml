@@ -1,12 +1,9 @@
 sources:
   pollen:
-      description:|
-        Sample images required to demonstrate a pretrained image 
-classification model to classify pollen grains by species, taken from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157044, published under CC0: public domain license.
+      description: | 
+        Sample images required to demonstrate a pretrained image classification model to classify pollen grains by species, taken from https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0157044, published under CC0: public domain license.
       
       origin:
       driver: intake_xarray.image.ImageSource
-      args:	
-	urlpath:["zip://*.jpg::https://zenodo.org/record/7113865/files/PollenData.zip"]
-        chunks: {}
+      args: urlpath:["zip://*.jpg::https://zenodo.org/record/7113865/files/PollenData.zip"]
 
